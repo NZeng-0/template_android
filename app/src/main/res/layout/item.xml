@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/kuang20"
+    android:elevation="2dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/itext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:maxLines="1"
+        android:textColor="@color/hei"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/itext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itext1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="left"
+        android:textColor="@color/shenghui2"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/itext3"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_below="@+id/itext2"
+        android:layout_marginBottom="5dp"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:textSize="10dp" />
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/backg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/regi_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/back"
+            android:elevation="2dp"
+            android:hint="请输入账号:"
+            android:paddingLeft="20dp" />
+
+
+        <EditText
+            android:id="@+id/regi_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:elevation="2dp"
+            android:hint="请输入密码:"
+            android:inputType="textWebPassword"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/regi_password2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:elevation="2dp"
+            android:hint="请再次输入密码:"
+            android:inputType="textWebPassword"
+            android:paddingLeft="20dp" />
+
+
+        <Button
+            android:id="@+id/regi_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/but"
+            android:text="注    册"
+            android:textAllCaps="false"
+            android:textColor="@color/bai"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/regi_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/but"
+            android:text="已有账号，回去登录"
+            android:textAllCaps="false"
+            android:textColor="@color/bai"
+            android:textSize="18dp" />
+    </LinearLayout>
+</LinearLayout>

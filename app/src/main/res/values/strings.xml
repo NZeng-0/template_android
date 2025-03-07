@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">备忘录</string>
+    <string name="title_home">备忘录</string>
+    <string name="title_dashboard">意见反馈</string>
+    <string name="title_notifications">我的</string>
+    <string name="mine">我的</string>
+    <string name="input1">请输入您的意见...</string>
+    <string name="input2">最多输入200字</string>
+    <string name="put">提交反馈</string>
+    <string name="putsfnicw">意见反馈</string>
+</resources>
